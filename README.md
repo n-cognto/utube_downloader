@@ -45,25 +45,25 @@ This project makes it simple to fetch videos, audio, and playlists from YouTube 
 ### Download a Video
 
 ```bash
-python utube_downloader.py <video_url>
+python utube_downloader.py download <video_url>
 ```
 
 ### Download Audio Only (MP3)
 
 ```bash
-python utube_downloader.py <video_url> --audio
+python utube_downloader.py download <video_url> --audio
 ```
 
 ### Download Playlist
 
 ```bash
-python utube_downloader.py <playlist_url> --playlist
+python utube_downloader.py download <playlist_url> --playlist
 ```
 
 ### Custom Output Name
 
 ```bash
-python utube_downloader.py <video_url> -o "myvideo.mp4"
+python utube_downloader.py download <video_url> -o "myvideo.mp4"
 ```
 
 ---
